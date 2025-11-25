@@ -14,8 +14,8 @@ public class Bullet : MonoBehaviour
     
     private Vector2 direction;
     private Transform player;
-    private float waveFrequency = 5f; // Frecuencia del zigzag
-    private float waveAmplitude = 2f; // Amplitud del zigzag
+    private float waveFrequency = 1f; // Frecuencia del zigzag
+    private float waveAmplitude = 5f; // Amplitud del zigzag
     private float timeAlive = 0f;
 
     void Start()

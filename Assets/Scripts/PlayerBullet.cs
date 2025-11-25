@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerBullet : MonoBehaviour
 {
-    public float speed = 15f; // Velocidad de la bala del jugador (más rápida)
+    public float speed = 25f; // Velocidad de la bala del jugador (más rápida)
     private Vector2 direction;
 
     void Update()
@@ -29,7 +29,7 @@ public class PlayerBullet : MonoBehaviour
         if (other.CompareTag("Boss"))
         {
             Destroy(gameObject);
-            // Aquí puedes agregar lógica para dañar al jefe
+            // lpgica para dañar al jefe nivel lunático
         }
     }
 }
